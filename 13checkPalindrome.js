@@ -9,3 +9,9 @@ function isPalindrome(str){
 
 isPalindrome('dad')
 isPalindrome('tomato')
+
+
+//or
+function checkPalindrome(str){
+  return str==str.split('').reverse().join('');
+}
